@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla, sans-serif;
+}
+
+body {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+h1 {
+    font-size: 25px;
+    color: hsl(179, 62%, 43%);
+    margin: 10px;
+}
+
+h2, h3 {
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+p span {
+    display: block;
+    color:hsl(204, 43%, 93%);
+    font-size: 13px;
+}
+
+p {
+    margin: 10px;
+}
+
+.top {
+    color: hsl(71, 73%, 54%);
+}
+
+.right {
+    color: white;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 30%;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.top-part {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 500px;
+    grid-row-start: 1;
+    background-color: white;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 10px;
+    color: white;
+    grid-column-start: 1;
+    background-color: hsl(179, 62%, 43%);
+    display: block;
+}
+
+.bottom-right {
+    border-bottom-right-radius: 10px;
+    grid-column-start: 2;
+    background-color: hsl(218, 22%, 67%)
+}
+
+.bottom-left > p {
+    color: white;
+}
+
+.dollar {
+    font-size: 40px;
+    display: inline-block;
+}
+
+.pm {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 20px;
+    color: hsl(204, 43%, 93%);
+}
+
+.btn {
+    margin: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #bfe033;
+}
